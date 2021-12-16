@@ -1,0 +1,195 @@
+
+> survey-js-react-issue-repro@1.0.0 watch
+> tsc --noEmit --watch
+
+c10:56:43 a.m. - Starting compilation in watch mode...
+
+node_modules/survey-creator-react/survey-creator-react.d.ts(12,249): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(13,31): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(14,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(14,16): error TS2300: Duplicate identifier 'Question'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(14,26): error TS2300: Duplicate identifier 'SurveyError'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(14,39): error TS2300: Duplicate identifier 'SurveyModel'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(14,52): error TS2300: Duplicate identifier 'ItemValue'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(14,63): error TS2300: Duplicate identifier 'QuestionSelectBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(14,83): error TS2300: Duplicate identifier 'QuestionRowModel'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(15,17): error TS2300: Duplicate identifier 'SurveyElementBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(16,27): error TS2300: Duplicate identifier 'CreatorBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(16,63): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(17,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(17,16): error TS2300: Duplicate identifier 'SurveyModel'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(18,10): error TS2300: Duplicate identifier 'SurveyElementBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(19,10): error TS2300: Duplicate identifier 'CreatorBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(19,29): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(20,30): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(21,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(21,16): error TS2300: Duplicate identifier 'QuestionRowModel'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(22,10): error TS2300: Duplicate identifier 'QuestionAdornerViewModel'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(22,42): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(24,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(24,16): error TS2300: Duplicate identifier 'Question'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(25,41): error TS2300: Duplicate identifier 'QuestionAdornerViewModel'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(25,73): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(26,10): error TS2300: Duplicate identifier 'SurveyQuestionElementBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(27,40): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(28,10): error TS2300: Duplicate identifier 'ISurveyCreator'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(28,26): error TS2300: Duplicate identifier 'SurveyQuestionElementBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(29,45): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(30,10): error TS2300: Duplicate identifier 'QuestionAdornerViewModel'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(30,74): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(31,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(32,10): error TS2300: Duplicate identifier 'Question'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(32,20): error TS2300: Duplicate identifier 'SurveyError'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(32,33): error TS2300: Duplicate identifier 'SurveyModel'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(33,10): error TS2300: Duplicate identifier 'ISurveyCreator'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(34,43): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(35,10): error TS2300: Duplicate identifier 'QuestionSelectBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(35,30): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(35,36): error TS2300: Duplicate identifier 'ItemValue'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(36,48): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(37,10): error TS2300: Duplicate identifier 'QuestionSelectBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(37,30): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(38,10): error TS2300: Duplicate identifier 'QuestionSelectBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(38,30): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(39,44): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(40,36): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(41,10): error TS2300: Duplicate identifier 'CreatorBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(41,51): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(42,28): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(43,36): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(44,41): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(45,10): error TS2300: Duplicate identifier 'CreatorBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(45,51): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(46,38): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(47,37): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(48,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(49,10): error TS2300: Duplicate identifier 'CreatorBase'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(49,39): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(50,10): error TS2300: Duplicate identifier 'SurveyModel'.
+node_modules/survey-creator-react/survey-creator-react.d.ts(51,30): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(52,57): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(53,39): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(365,27): error TS2307: Cannot find module '@survey/creator' or its corresponding type declarations.
+node_modules/survey-creator-react/survey-creator-react.d.ts(402,16): error TS2528: A module cannot have multiple default exports.
+node_modules/survey-creator-react/survey-creator-react.d.ts(402,16): error TS2528: A module cannot have multiple default exports.
+node_modules/survey-creator-react/survey-creator-react.d.ts(438,16): error TS2528: A module cannot have multiple default exports.
+node_modules/survey-creator-react/survey-creator-react.d.ts(471,16): error TS2528: A module cannot have multiple default exports.
+node_modules/survey-react-ui/survey-react-ui.d.ts(9,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(9,10): error TS2440: Import declaration conflicts with local declaration of 'Base'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(9,16): error TS2300: Duplicate identifier 'Question'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(9,16): error TS2440: Import declaration conflicts with local declaration of 'Question'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(9,26): error TS2300: Duplicate identifier 'PageModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(9,37): error TS2300: Duplicate identifier 'SurveyError'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(9,37): error TS2440: Import declaration conflicts with local declaration of 'SurveyError'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(10,10): error TS2300: Duplicate identifier 'SurveyModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(10,23): error TS2300: Duplicate identifier 'QuestionMatrixDropdownRenderedCell'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(10,23): error TS2440: Import declaration conflicts with local declaration of 'QuestionMatrixDropdownRenderedCell'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(10,78): error TS2300: Duplicate identifier 'SurveyElement'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(10,78): error TS2440: Import declaration conflicts with local declaration of 'SurveyElement'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(10,93): error TS2300: Duplicate identifier 'QuestionRowModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(10,93): error TS2440: Import declaration conflicts with local declaration of 'QuestionRowModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(10,111): error TS2300: Duplicate identifier 'ItemValue'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(10,111): error TS2440: Import declaration conflicts with local declaration of 'ItemValue'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(10,122): error TS2440: Import declaration conflicts with local declaration of 'QuestionSelectBase'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(11,10): error TS2300: Duplicate identifier 'SurveyModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(12,10): error TS2300: Duplicate identifier 'PageModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(13,10): error TS2300: Duplicate identifier 'PanelModelBase'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(13,10): error TS2440: Import declaration conflicts with local declaration of 'PanelModelBase'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(14,10): error TS2440: Import declaration conflicts with local declaration of 'IElement'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(14,20): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(15,10): error TS2440: Import declaration conflicts with local declaration of 'PanelModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(16,26): error TS2300: Duplicate identifier 'Question'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(17,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(17,16): error TS2300: Duplicate identifier 'SurveyElement'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(17,31): error TS2300: Duplicate identifier 'SurveyError'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(17,44): error TS2300: Duplicate identifier 'Question'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(17,54): error TS2300: Duplicate identifier 'QuestionMatrixDropdownRenderedCell'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(18,10): error TS2440: Import declaration conflicts with local declaration of 'LocalizableString'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(19,10): error TS2300: Duplicate identifier 'Question'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(20,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(30,10): error TS2300: Duplicate identifier 'ItemValue'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(32,32): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(34,10): error TS2440: Import declaration conflicts with local declaration of 'QuestionMatrixDropdownModelBase'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(34,43): error TS2300: Duplicate identifier 'QuestionMatrixDropdownRenderedRow'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(34,43): error TS2440: Import declaration conflicts with local declaration of 'QuestionMatrixDropdownRenderedRow'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(34,78): error TS2300: Duplicate identifier 'QuestionMatrixDropdownRenderedCell'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(34,114): error TS2300: Duplicate identifier 'Question'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(36,10): error TS2300: Duplicate identifier 'SurveyModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(43,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(44,10): error TS2440: Import declaration conflicts with local declaration of 'PopupModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(44,22): error TS2440: Import declaration conflicts with local declaration of 'PopupBaseViewModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(45,10): error TS2440: Import declaration conflicts with local declaration of 'ListModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(46,10): error TS2300: Duplicate identifier 'SurveyElement'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(47,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(47,16): error TS2300: Duplicate identifier 'Action'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(47,16): error TS2440: Import declaration conflicts with local declaration of 'Action'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(47,24): error TS2440: Import declaration conflicts with local declaration of 'ActionContainer'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(48,10): error TS2300: Duplicate identifier 'Action'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(49,10): error TS2300: Duplicate identifier 'QuestionMatrixDropdownRenderedRow'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(50,10): error TS2300: Duplicate identifier 'QuestionRowModel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(50,28): error TS2300: Duplicate identifier 'PanelModelBase'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(51,10): error TS2300: Duplicate identifier 'Base'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(51,16): error TS2300: Duplicate identifier 'Action'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(115,51): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(123,47): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(256,54): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(654,43): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(706,43): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(712,43): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(734,40): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(743,43): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(751,38): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(789,39): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(793,52): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(801,52): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(1246,55): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+node_modules/survey-react-ui/survey-react-ui.d.ts(2384,9): error TS2416: Property 'getPanel' in type 'Question' is not assignable to the same property in base type 'IQuestion'.
+  Type '() => import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").IPanel' is not assignable to type '() => import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").IPanel'.
+    Call signature return types 'IPanel' and 'IPanel' are incompatible.
+      The types of 'setSurveyImpl' are incompatible between these types.
+        Type '(value: import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").ISurveyImpl, isLight?: boolean | undefined) => any' is not assignable to type '(value: import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").ISurveyImpl, isLight?: boolean | undefined) => any'.
+          Types of parameters 'value' and 'value' are incompatible.
+            Type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").ISurveyImpl' is not assignable to type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").ISurveyImpl'.
+              The types of 'getSurvey().getSkeletonComponentName' are incompatible between these types.
+                Type '(element: import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").ISurveyElement) => string' is not assignable to type '(element: import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").ISurveyElement) => string'.
+                  Types of parameters 'element' and 'element' are incompatible.
+                    Type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").ISurveyElement' is not assignable to type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").ISurveyElement'.
+                      The types returned by 'getTitleToolbar()' are incompatible between these types.
+                        Type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").AdaptiveActionContainer<import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").Action>' is not assignable to type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").AdaptiveActionContainer<import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").Action>'.
+                          Property 'dotsItem' is protected but type 'AdaptiveActionContainer<T>' is not a class derived from 'AdaptiveActionContainer<T>'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(2444,9): error TS2416: Property 'setSurveyImpl' in type 'Question' is not assignable to the same property in base type 'IQuestion'.
+  Type '(value: ISurveyImpl, isLight?: boolean | undefined) => void' is not assignable to type '(value: ISurveyImpl, isLight?: boolean | undefined) => any'.
+    Types of parameters 'value' and 'value' are incompatible.
+      Type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").ISurveyImpl' is not assignable to type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").ISurveyImpl'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(2450,13): error TS2416: Property 'parent' in type 'Question' is not assignable to the same property in base type 'IQuestion'.
+  Type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").IPanel' is not assignable to type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").IPanel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(2451,13): error TS2416: Property 'parent' in type 'Question' is not assignable to the same property in base type 'IQuestion'.
+  Type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").IPanel' is not assignable to type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").IPanel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(3971,13): error TS2416: Property 'parent' in type 'PanelModelBase' is not assignable to the same property in base type 'IPanel'.
+  Type 'PanelModelBase' is not assignable to type 'IPanel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(3971,13): error TS2416: Property 'parent' in type 'PanelModelBase' is not assignable to the same property in base type 'SurveyElement'.
+  Type 'PanelModelBase' is not assignable to type 'IPanel'.
+    Types of property 'setSurveyImpl' are incompatible.
+      Type '(value: ISurveyImpl, isLight?: boolean | undefined) => void' is not assignable to type '(value: ISurveyImpl, isLight?: boolean | undefined) => any'.
+        Types of parameters 'value' and 'value' are incompatible.
+          Type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").ISurveyImpl' is not assignable to type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").ISurveyImpl'.
+            The types of 'getSurvey().getSkeletonComponentName' are incompatible between these types.
+              Type '(element: import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").ISurveyElement) => string' is not assignable to type '(element: import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").ISurveyElement) => string'.
+                Types of parameters 'element' and 'element' are incompatible.
+                  Type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").ISurveyElement' is not assignable to type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").ISurveyElement'.
+                    The types returned by 'parent.getTitleToolbar()' are incompatible between these types.
+                      Type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").AdaptiveActionContainer<import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").Action>' is not assignable to type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").AdaptiveActionContainer<import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").Action>'.
+                        Property 'dotsItem' is protected but type 'AdaptiveActionContainer<T>' is not a class derived from 'AdaptiveActionContainer<T>'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(3972,13): error TS2416: Property 'parent' in type 'PanelModelBase' is not assignable to the same property in base type 'IPanel'.
+  Type 'PanelModelBase' is not assignable to type 'IPanel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(3972,13): error TS2416: Property 'parent' in type 'PanelModelBase' is not assignable to the same property in base type 'SurveyElement'.
+  Type 'PanelModelBase' is not assignable to type 'IPanel'.
+node_modules/survey-react-ui/survey-react-ui.d.ts(4223,22): error TS2420: Class 'PanelModel' incorrectly implements interface 'IElement'.
+  The types returned by 'getPanel()' are incompatible between these types.
+    Type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-react-ui/survey-react-ui").IPanel' is not assignable to type 'import("/Users/giorgiodelgado/code/survey-js-react-issue-repro/node_modules/survey-core/survey.core").IPanel'.
+
+10:56:48 a.m. - Found 148 errors. Watching for file changes.
+c10:59:27 a.m. - File change detected. Starting incremental compilation...
+
+c10:59:29 a.m. - File change detected. Starting incremental compilation...
+

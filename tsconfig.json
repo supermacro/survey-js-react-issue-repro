@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../",
+    "outDir": "../build",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitAny": true,
+    "downlevelIteration": true,
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "target": "es5",
+    "allowJs": false 
+  }
+}
